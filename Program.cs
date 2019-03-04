@@ -12,6 +12,7 @@ namespace calculator
         const int menuSize = 5;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         static void addA(int A)
         {
             Console.Clear();
@@ -31,13 +32,21 @@ namespace calculator
             Console.Clear();
             int C = A + B;
             Console.WriteLine("{0} + {1} = {2}", A, B, C);
-=======
+        }
+
         static void subtraction(int A, int B)
         {
             Console.Clear();
             int C = A - B;
             Console.WriteLine("{0} - {1} = {2}", A, B, C);
->>>>>>> menuItem4
+            Console.ReadKey();
+        }
+
+        static void multiplication(int A, int B)
+        {
+            Console.Clear();
+            int C = A * B;
+            Console.WriteLine("{0} * {1} = {2}", A, B, C);
             Console.ReadKey();
         }
 
@@ -73,11 +82,11 @@ namespace calculator
                         break;
 
                     case 4:
-                        //subtraction(A, B);
+                        subtraction(A, B);
                         break;
 
                     case 5:
-                        //multiplication(A, B);
+                        multiplication(A, B);
                         break;
 
                     case 6:
