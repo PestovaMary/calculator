@@ -10,40 +10,50 @@ namespace calculator
     class Program
     {
         const int menuSize = 5;
-        
+
+
 
         static void Main(string[] args)
         {
-            int A, B;
+            int A = 0, B = 0;
             int menuIndex;
 
             do
             {
                 Console.Clear();
                 Console.WriteLine("Input A and B");
-                A = int.Parse(Console.ReadLine());
-                B = int.Parse(Console.ReadLine());
-                Console.WriteLine("1. Addition");
-                Console.WriteLine("2. Subtraction");
-                Console.WriteLine("3. Multiplication");
-                Console.WriteLine("4. Division");
-                Console.WriteLine("5. Exit!");
+
+                Console.WriteLine("1. Add A");
+                Console.WriteLine("2. Add B");
+                Console.WriteLine("3. Addition");
+                Console.WriteLine("4. Subtraction");
+                Console.WriteLine("5. Multiplication");
+                Console.WriteLine("6. Division");
+                Console.WriteLine("7. Exit!");
                 menuIndex = int.Parse(Console.ReadLine());
                 switch (menuIndex)
                 {
                     case 1:
-                        //addition(A, B);
+                        //addA(A);
                         break;
 
                     case 2:
-                        //subtraction(A, B);
+                        //addB(B);
                         break;
 
                     case 3:
-                        //multiplication(A, B);
+                        //addition(A, B);
                         break;
 
                     case 4:
+                        //subtraction(A, B);
+                        break;
+
+                    case 5:
+                        //multiplication(A, B);
+                        break;
+
+                    case 6:
                         //division(A, B);
                         break;
                 }

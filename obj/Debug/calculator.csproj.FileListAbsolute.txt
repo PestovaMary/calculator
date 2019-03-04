@@ -1,0 +1,7 @@
+C:\git\calculator\calculator\bin\Debug\calculator.exe.config
+C:\git\calculator\calculator\bin\Debug\calculator.exe
+C:\git\calculator\calculator\bin\Debug\calculator.pdb
+C:\git\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\git\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\git\calculator\calculator\obj\Debug\calculator.exe
+C:\git\calculator\calculator\obj\Debug\calculator.pdb
