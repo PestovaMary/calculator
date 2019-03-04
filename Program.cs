@@ -11,6 +11,7 @@ namespace calculator
     {
         const int menuSize = 5;
 
+<<<<<<< HEAD
         static void addA(int A)
         {
             Console.Clear();
@@ -30,6 +31,13 @@ namespace calculator
             Console.Clear();
             int C = A + B;
             Console.WriteLine("{0} + {1} = {2}", A, B, C);
+=======
+        static void subtraction(int A, int B)
+        {
+            Console.Clear();
+            int C = A - B;
+            Console.WriteLine("{0} - {1} = {2}", A, B, C);
+>>>>>>> menuItem4
             Console.ReadKey();
         }
 
