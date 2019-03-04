@@ -11,7 +11,13 @@ namespace calculator
     {
         const int menuSize = 5;
 
-
+        static void addB(int B)
+        {
+            Console.Clear();
+            Console.WriteLine("Input B");
+            B = int.Parse(Console.ReadLine());
+            Console.ReadKey();
+        }
 
         static void Main(string[] args)
         {
