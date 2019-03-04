@@ -11,7 +11,13 @@ namespace calculator
     {
         const int menuSize = 5;
 
-
+        static void subtraction(int A, int B)
+        {
+            Console.Clear();
+            int C = A - B;
+            Console.WriteLine("{0} - {1} = {2}", A, B, C);
+            Console.ReadKey();
+        }
 
         static void Main(string[] args)
         {
