@@ -16,6 +16,13 @@ namespace calculator
             Console.Clear();
             Console.WriteLine("Input A");
             A = int.Parse(Console.ReadLine());
+        }
+
+        static void addB(int B)
+        {
+            Console.Clear();
+            Console.WriteLine("Input B");
+            B = int.Parse(Console.ReadLine());
             Console.ReadKey();
         }
 
@@ -43,7 +50,7 @@ namespace calculator
                         break;
 
                     case 2:
-                        //addB(B);
+                        addB(B);
                         break;
 
                     case 3:
