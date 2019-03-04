@@ -11,7 +11,13 @@ namespace calculator
     {
         const int menuSize = 5;
 
-
+        static void addA(int A)
+        {
+            Console.Clear();
+            Console.WriteLine("Input A");
+            A = int.Parse(Console.ReadLine());
+            Console.ReadKey();
+        }
 
         static void Main(string[] args)
         {
@@ -21,7 +27,6 @@ namespace calculator
             do
             {
                 Console.Clear();
-                Console.WriteLine("Input A and B");
 
                 Console.WriteLine("1. Add A");
                 Console.WriteLine("2. Add B");
@@ -34,7 +39,7 @@ namespace calculator
                 switch (menuIndex)
                 {
                     case 1:
-                        //addA(A);
+                        addA(A);
                         break;
 
                     case 2:
@@ -58,7 +63,7 @@ namespace calculator
                         break;
                 }
 
-            } while (menuIndex != 5);
+            } while (menuIndex != 7);
             Console.ReadKey();
         }
     }
