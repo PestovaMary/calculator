@@ -10,9 +10,6 @@ namespace calculator
     class Program
     {
         const int menuSize = 5;
-
-<<<<<<< HEAD
-<<<<<<< HEAD
         static void addA(int A)
         {
             Console.Clear();
@@ -47,6 +44,14 @@ namespace calculator
             Console.Clear();
             int C = A * B;
             Console.WriteLine("{0} * {1} = {2}", A, B, C);
+            Console.ReadKey();
+        }
+
+        static void division(int A, int B)
+        {
+            Console.Clear();
+            int C = A / B;
+            Console.WriteLine("{0}/{1} = {2}", A, B, C);
             Console.ReadKey();
         }
 
@@ -90,7 +95,7 @@ namespace calculator
                         break;
 
                     case 6:
-                        //division(A, B);
+                        division(A, B);
                         break;
                 }
 
